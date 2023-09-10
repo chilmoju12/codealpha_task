@@ -1,0 +1,88 @@
+body {
+  background: rgb(9, 9, 9);
+}
+
+#app {
+  margin-top: 10%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-item: center;
+}
+
+.calculator {
+  
+  width: 440px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px auto;
+  font-size: 16px;
+  background-color: #fcfcfc;
+}
+
+.input {
+  width: 420px;
+  height: 50px;
+  border-radius: 0px;
+  border: 1px solid black;
+  background-color: #f3eeee;
+  color: #02150f;/* text in the input prompt*/
+  padding: 0 5px 0 5px;
+  margin: 0 0px 10px 0px;
+  font-size: 30px;
+}
+
+.input:focus,
+.input:active {
+  border-color: #03a9f4;
+  box-shadow: 0 0 4px #03A9F4;
+  outline: none 0;
+}
+
+.button {
+  margin: 3px;
+  width: 63px;
+  border: 1px solid #0d0d0d;
+  height: 30px;
+  border-radius: 4px;
+  color: #d9d9d9;
+  background-color: #b90909;
+  cursor: pointer;
+  outline: none;
+}
+
+.mode {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.equal-sign {
+  background-color: rgb(21, 235, 57);
+  width: 133px;
+}
+
+.toggle-button {
+  
+  border: none;
+  background-color: #fefefe;
+  cursor: pointer;
+  outline: none;
+  font-size: 2rem;
+  color: #ed1717;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.35);
+  
+}
+
+p {
+  margin-top: 10px;
+}
+
+button::-moz-focus-inner {
+  border-color: transparent;
+}
